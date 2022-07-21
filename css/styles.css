@@ -707,6 +707,8 @@ progress {
     max-width: 1320px;
   }
 }
+
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -11513,7 +11515,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/pexels-pixabay-268533.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
