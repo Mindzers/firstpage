@@ -174,6 +174,19 @@ address {
   line-height: inherit;
 }
 
+
+/* botones de servicio */
+
+.col-md-4 a {color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  background: #ffc800;
+  padding: 7px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px solid #ffc800;}
+
+
 ol,
 ul {
   padding-left: 2rem;
