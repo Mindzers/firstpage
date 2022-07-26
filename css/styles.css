@@ -11916,19 +11916,6 @@ p {
     }
 
 
-.team-member .img-top {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-
-
-    .team-member:hover .img-top {
-        display: inline;
-    }
-
 
 .team-member {
   margin-bottom: 3rem;
