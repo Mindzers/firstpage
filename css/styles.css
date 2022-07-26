@@ -11892,10 +11892,10 @@ p {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+
   
 }
-
+/*    border: 0.5rem solid rgba(0, 0, 0, 0.1);*/
 
   
 .team-member h4, .team-member .h4 {
