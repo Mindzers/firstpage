@@ -801,7 +801,7 @@ banner
     background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0.5px;
     width: 100%;
 }
 
@@ -11935,19 +11935,25 @@ p {
         display: inline;
     }
 
+
+
+
     #about {
       
-      background: url(../assets/img/pexels-pixabay-268533.jpg);
-      background-size: cover;
+    background: url(../assets/img/pexels-pixabay-268533.jpg);
+    background-size: cover;
+
+
      
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 60px 0 40px 0;
+  padding: 60px 0 40px ;
 }
-@media (min-width: 1024px) {
+@media (min-width: 360px) {
   #about {
     background-attachment: fixed;
+    
   }
 }
 #about:before {
