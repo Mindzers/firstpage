@@ -7728,6 +7728,8 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -11532,16 +11534,16 @@ p {
   line-height: 1.75;
 }
 
-.py-5 {
-  padding: 6rem 0;
+.container {
+  padding: 0.5rem 0;
   
 }
-.py-5 h2.section-heading, .py-5 .section-heading.h2 {
+.container h2.section-heading, .container .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
-.py-5 h3.section-subheading, .py-5 .section-subheading.h3 {
+.container h3.section-subheading, .container .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
