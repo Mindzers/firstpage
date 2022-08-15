@@ -12114,13 +12114,5 @@ element.style {
 .rounded {
   border-radius: 0.25rem!important;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-img {
-  vertical-align: middle;
-  border-style: none;
-}
 
 
