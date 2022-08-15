@@ -801,7 +801,7 @@ banner
     background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
-    bottom: 0.5px;
+    bottom: 5.5px;
     width: 100%;
 }
 
@@ -11941,18 +11941,6 @@ p {
 
 
 
-    #about {
-      
-    background: url(../assets/img/pexels-pixabay-268533.jpg);
-    background-size: cover;
-
-
-     
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px ;
-}
 @media (min-width: 360px) {
   #about {
     background-attachment: fixed;
@@ -11967,6 +11955,7 @@ p {
   top: 0;
   left: 0;
   right: 0;
+
 }
 #about h2 {
   font-size: 36px;
@@ -12120,3 +12109,18 @@ element.style {
   --light: #F1F8FF;
   --dark: #0F172B;
 }
+
+
+.rounded {
+  border-radius: 0.25rem!important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+
