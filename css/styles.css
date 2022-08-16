@@ -185,21 +185,21 @@ address {
 .col-md-4 a {color: #ffffff;
   text-decoration: none;
   font-size: 13px;
-  background: #ffc800;
+  background: black;
   padding: 7px 20px;
   margin-top: 10px;
   display: inline-block;
-  border: 1px solid #ffc800;}
+  border: 1px solid #f91b96;}
 
 
-  .caption a {color: black;
+  .caption a {color: white;
     text-decoration: none;
     font-size: 13px;
-    background: #ffc800;
+    background: #f91b96;
     padding: 7px 20px;
     margin-top: 10px;
     display: inline-block;
-    border: 1px solid #ffc800;}
+    border: 1px solid white;}
 
 
 ol,
@@ -798,7 +798,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
+    background-color: rgb(39 34 149 / 80%);
     top: 0;
     left: 0;
     bottom: 5.5px;
@@ -832,7 +832,7 @@ banner
 
 .main-banner .caption h2 em {
   font-style:normal;
-  color: #ffc800;
+  color: #f91b96;
   font-weight: 900;
   text-align: center;
 }
@@ -11602,7 +11602,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #f91b96;
 }
 
 @media (min-width: 992px) {
@@ -12105,7 +12105,7 @@ element.style {
 }
 
 :root {
-  --primary: #FEA116;
+  --primary: #f91b96;
   --light: #F1F8FF;
   --dark: #0F172B;
 }
