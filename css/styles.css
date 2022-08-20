@@ -804,6 +804,14 @@ banner
     left: 0;
     bottom: 5.5px;
     width: 100%;
+
+    
+}
+
+.caption .btn-banner {
+  background: #f91b96;
+  border: 2px solid #f91b96;
+  border-radius: 30px;
 }
 
 .main-banner .caption {
