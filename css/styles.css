@@ -195,14 +195,18 @@ address {
   .caption .btn-banner  {color: white;
     text-decoration: none;
     font-size: 13px;
-    background: #f91b96;
+    
     padding: 7px 20px;
     margin-top: 10px;
     display: inline-block;
-    border: 1px solid white;
-    border-radius: 45% 45%;
+  
+  
+      background: #f91b96;
+      border: 2px solid #f91b96;
+      border-radius: 30px;
+    }
     
-  }
+  
 
 
 ol,
@@ -810,11 +814,7 @@ banner
     
 }
 
-.caption .btn-banner {
-  background: #f91b96;
-  border: 2px solid #f91b96;
-  border-radius: 30px;
-}
+
 
 .main-banner .caption {
   text-align: center;
