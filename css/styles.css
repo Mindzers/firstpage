@@ -117,7 +117,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -204,6 +204,8 @@ address {
       background: #f91b96;
       border: 2px solid #f91b96;
       border-radius: 30px;
+      font-weight:  bolder;
+      letter-spacing: 2px;
     }
     
   
@@ -12136,7 +12138,7 @@ img {
 
 .icon {
 
-  filter: invert(20%) sepia(56%) saturate(4953%) hue-rotate(314deg) brightness(102%) contrast(96%);
+  filter: invert(8%) sepia(100%) saturate(6954%) hue-rotate(248deg) brightness(102%) contrast(144%);
 
 
 }
