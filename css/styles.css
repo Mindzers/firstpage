@@ -11636,8 +11636,8 @@ p {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -12103,6 +12103,7 @@ element.style {
 .service-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   transition: .5s;
+  border: 2px solid #f91b96;
 }
 
 .service-item:hover {
