@@ -1424,7 +1424,19 @@ responsive
     flex: 0 0 auto;
     width: 50%;
   }
-
+  /*alernative col*/
+  .cola-md-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .cola-md-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+/*end alternative col*/
   .col-md-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
@@ -12128,10 +12140,14 @@ element.style {
 .rounded {
   border-radius: 0.25rem!important;
 }
+
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+
+
 img {
   vertical-align: middle;
   border-style: none;
@@ -12143,3 +12159,28 @@ img {
 
 
 }
+
+
+
+
+/*
+/*card original
+
+.card {
+  padding: 1rem;
+  background: var(--clr-gradient);
+  color: white;
+  border-radius: 0.25rem;
+}
+*/
+.card {
+  padding: 0.5rem;
+  background: var(--clr-gradient);
+  color: white;
+  border-radius: 0.25rem;
+}
+
+
+
+
+
