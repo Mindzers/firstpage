@@ -4808,7 +4808,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.card {
+/*.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4818,7 +4818,8 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-}
+}*/
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -12179,7 +12180,7 @@ element.style {
 }
 
 :root {
-  --primary: #f91b9670;
+  --primary:  #f91b9670;
   --light: #F1F8FF;
   --dark: #0F172B;
 }
@@ -12226,9 +12227,45 @@ img {
   background: var(--clr-gradient);
   color: white;
   border-radius: 0.25rem;
+  min-width: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
+@media (min-width: 768px) {
+  .background_container{
+    background-image: url("./assets/img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+ /* .card {
+    padding: 0.5rem;
+    background: var(--clr-gradient);
+    color: white;
+    border-radius: 0.25rem;
+    min-width: 0;
+    position: relative;
+    flex-direction: row;
+    background-attachment: fixed;
+    
+  }*/
+  }
 
+/*.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}*/
 
+/*un cambio 26/10/2022*/
 
 
