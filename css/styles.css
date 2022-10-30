@@ -614,6 +614,10 @@ progress {
       height:63px;
       line-height: 66px;
 }
+.card {
+  background-image: url(./assets/img/1.jpg);
+  background-attachment: fixed;
+}
 }
 
 .display-3 {
@@ -12221,14 +12225,26 @@ img {
   border-radius: 0.25rem;
 }
 */
-.card {
-  padding: 0.5rem;
-  background: var(--clr-gradient);
-  color: white;
+
+.card-foto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
 }
 
-
-
-
+/* @media (min-width: 768px) {
+  .card {
+    background-image: url(/assets/img/1.jpg);
+    background-attachment: fixed;
+  }
+ */
 
